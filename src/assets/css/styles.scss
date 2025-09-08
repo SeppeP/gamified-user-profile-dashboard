@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter/inter.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html, body {
+  * {
+    padding: 0;
+    margin: 0;
+
+    color: $text-color;
+    font-family: 'Inter', 'sans-serif';
+  }
+}
+
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, $body-color-top 0%, $body-color-bottom 40%);
+}
