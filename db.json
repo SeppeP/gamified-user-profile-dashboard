@@ -11,7 +11,7 @@
       "id": 1,
       "title": "Sign up",
       "description": "Create an account",
-      "icon_url": "",
+      "icon_url": "achievements/sign-up.png",
       "currentCount": 1,
       "goalCount": 1
     },
@@ -19,7 +19,7 @@
       "id": 2,
       "title": "Defeat 100 goombas",
       "description": "stomp those suckers!",
-      "icon_url": "",
+      "icon_url": "achievements/stomp-goomba.png",
       "currentCount": 28,
       "goalCount": 100
     },
@@ -27,7 +27,7 @@
       "id": 3,
       "title": "Gather 10 Yoshi coins",
       "description": "And no, this one doesn't count",
-      "icon_url": "",
+      "icon_url": "achievements/yoshi-coin.png",
       "currentCount": 6,
       "goalCount": 10
     },
@@ -35,7 +35,7 @@
       "id": 4,
       "title": "Chain Chomp dodger",
       "description": "Survive an encounter with a Chain Chomp without taking damage",
-      "icon_url": "",
+      "icon_url": "achievements/chain-chomp.png",
       "currentCount": 0,
       "goalCount": 1
     },
@@ -43,7 +43,7 @@
       "id": 5,
       "title": "Power-up!",
       "description": "Collect 5 power-ups",
-      "icon_url": "",
+      "icon_url": "achievements/power-up.png",
       "currentCount": 2,
       "goalCount": 5
     },
@@ -51,7 +51,7 @@
       "id": 6,
       "title": "Star Power",
       "description": "Find the hidden invincibility star",
-      "icon_url": "",
+      "icon_url": "achievements/star.png",
       "currentCount": 1,
       "goalCount": 1
     }

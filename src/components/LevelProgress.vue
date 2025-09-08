@@ -16,8 +16,10 @@ const props = defineProps<{
   max_xp: number;
 }>()
 
+const isCompleted = computed(() => props.current_xp >= props.max_xp)
+
 const progressionBarColor = computed(() => {
-  return props.current_xp === props.max_xp ? 'LevelProgress__progression-bar--finished' : 'LevelProgress__progression-bar--ongoing';
+  return isCompleted.value ? 'LevelProgress__progression-bar--completed' : 'LevelProgress__progression-bar--ongoing';
 })
 
 const progressionBarWidth = computed(() => {
@@ -30,8 +32,6 @@ const progressionBarWidth = computed(() => {
 
 <style lang="scss">
 .LevelProgress {
-  margin: 0 1rem;
-
   &__xp {
     text-align: right;
     font-size: .75rem;
@@ -49,8 +49,8 @@ const progressionBarWidth = computed(() => {
     background-color: red;
     height: 100%;
 
-    &--finished {
-      background-color: $progress-finished-color;
+    &--completed {
+      background-color: $progress-completed-color;
     }
 
     &--ongoing {
