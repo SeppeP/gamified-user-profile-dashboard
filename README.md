@@ -4,3 +4,10 @@ This template should help get you started developing with Vue 3 and TypeScript i
 
 Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
 # gamified-user-profile-dashboard
+
+## How to run
+
+1. Open the project and run `npm install`
+2. Run `npm run dev`
+3. In another terminal, run `json-server db.json`
+4. have fun!
