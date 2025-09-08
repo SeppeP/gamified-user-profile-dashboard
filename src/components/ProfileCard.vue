@@ -10,7 +10,7 @@
 import useProfileStore from "../stores/ProfileStore.ts";
 import {storeToRefs} from "pinia";
 
-const {profile} = storeToRefs(useProfileStore());
+const { profile } = storeToRefs(useProfileStore());
 </script>
 
 <style lang="scss">
