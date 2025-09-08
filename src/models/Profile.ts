@@ -1,7 +1,7 @@
 import type {Url} from "./common.ts";
 
 export default interface Profile {
-    name: String,
+    name: string,
     avatar_url: Url,
     level: number,
     current_xp: number,

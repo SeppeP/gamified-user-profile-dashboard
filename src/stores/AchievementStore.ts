@@ -12,7 +12,7 @@ const useAchievementStore = defineStore('achievementStore', {
         },
 
         handleYoshiCoinClick() {
-            const yoshiCoinAchievement = this.achievements?.find(achievement => achievement.id === 3)
+            const yoshiCoinAchievement = this.achievements?.find(achievement => achievement.id === '3')
             if(yoshiCoinAchievement) {
                 yoshiCoinAchievement.currentCount++;
             }
