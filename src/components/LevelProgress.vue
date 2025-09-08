@@ -48,6 +48,7 @@ const progressionBarWidth = computed(() => {
     position: relative;
     background-color: red;
     height: 100%;
+    transition: all 0.2s;
 
     &--completed {
       background-color: $progress-completed-color;

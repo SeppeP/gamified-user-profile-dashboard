@@ -1,12 +1,12 @@
 import type { Url } from "./common.ts";
 
-export type AchievementId = Number;
+export type AchievementId = number;
 
 export default interface Achievement {
-    id: AchievementId,
-    title: String,
-    description: String,
+    id: number,
+    title: string,
+    description: string,
     icon_url: Url,
-    currentCount: Number,
-    goalCount: Number,
+    currentCount: number,
+    goalCount: number,
 }

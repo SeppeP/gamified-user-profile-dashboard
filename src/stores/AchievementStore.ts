@@ -9,6 +9,13 @@ const useAchievementStore = defineStore('achievementStore', {
         async getAchievements() {
             const response = await fetch('http://localhost:3000/achievements');
             this.achievements = await response.json();
+        },
+
+        handleYoshiCoinClick() {
+            const yoshiCoinAchievement = this.achievements?.find(achievement => achievement.id === 3)
+            if(yoshiCoinAchievement) {
+                yoshiCoinAchievement.currentCount++;
+            }
         }
     }
 })
