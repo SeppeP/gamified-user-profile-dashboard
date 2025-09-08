@@ -1,0 +1,59 @@
+{
+  "profile": {
+    "name": "Seppe Parys",
+    "avatar_url": "",
+    "level": 12,
+    "current_xp": 490,
+    "xp_to_next_level": 500
+  },
+  "achievements": [
+    {
+      "id": 1,
+      "title": "Sign up",
+      "description": "Create an account",
+      "icon_url": "",
+      "currentCount": 1,
+      "goalCount": 1
+    },
+    {
+      "id": 2,
+      "title": "Defeat 100 goombas",
+      "description": "stomp those suckers!",
+      "icon_url": "",
+      "currentCount": 28,
+      "goalCount": 100
+    },
+    {
+      "id": 3,
+      "title": "Gather 10 Yoshi coins",
+      "description": "And no, this one doesn't count",
+      "icon_url": "",
+      "currentCount": 6,
+      "goalCount": 10
+    },
+    {
+      "id": 4,
+      "title": "Chain Chomp dodger",
+      "description": "Survive an encounter with a Chain Chomp without taking damage",
+      "icon_url": "",
+      "currentCount": 0,
+      "goalCount": 1
+    },
+    {
+      "id": 5,
+      "title": "Power-up!",
+      "description": "Collect 5 power-ups",
+      "icon_url": "",
+      "currentCount": 2,
+      "goalCount": 5
+    },
+    {
+      "id": 6,
+      "title": "Star Power",
+      "description": "Find the hidden invincibility star",
+      "icon_url": "",
+      "currentCount": 1,
+      "goalCount": 1
+    }
+  ]
+}
